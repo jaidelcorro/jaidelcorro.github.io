@@ -39,10 +39,11 @@ a:-webkit-any-link {
     transform-origin: 0px 0px;
 }
 
-
+/*
 @media (max-width: 767px) {
   body {
       font-size: 23px;
       line-height: 26px;
   }
 }
+*/
