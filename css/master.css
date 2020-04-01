@@ -27,8 +27,8 @@ a:-webkit-any-link {
 }
 
 .triangle1 {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: relative;
   top: 0px;
   left: 0px;
@@ -38,6 +38,12 @@ a:-webkit-any-link {
 :not(svg) {
     transform-origin: 0px 0px;
 }
+
+@media screen and (max-width: 430px) {
+    .hide {
+        display: block;
+    }
+  }
 
 /*
 @media (max-width: 767px) {
