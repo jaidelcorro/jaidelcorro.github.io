@@ -37,10 +37,10 @@ a:hover{
 
 @media screen and (max-width: 375px) {
   header {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: -.8rem;
   }
   svg {
-    height: 170vh;
+    height: 354vh;
   }
   }
