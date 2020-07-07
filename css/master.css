@@ -1,7 +1,7 @@
 
 header{
   font-family: Helvetica Neue LT Com, sans-serif;
-  font-weight: 65 Medium;
+  font-weight: 500;
   font-size: 2rem;
   line-height: 1.15s;
   display: block;
@@ -9,7 +9,7 @@ header{
   margin-left: 1rem;
   margin-right: 1rem;
   z-index: 1;
-  position: absolute;
+  position: fixed;
 }
 
 
@@ -38,7 +38,7 @@ a:hover{
 @media screen and (max-width: 375px) {
   header {
     font-size: 1.5rem;
-    margin-top: -1rem;
+    margin: -2,-2,-2,-2;
   }
   svg {
     height: 178vh;
