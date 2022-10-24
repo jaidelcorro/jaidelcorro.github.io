@@ -1,16 +1,33 @@
 
 header{
   display: block;
-  margin-top: -1.8rem;
-  margin-left: 1.3rem;
-  margin-right: 1.3rem;
+  margin-top: -1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   z-index: 1;
   position: fixed;
   max-width: 1400px;
 }
 
+svg{
+  fill:black;
+  width:90px;
+}
+
+.plant1{
+  transform: translate(10vw, 80vh);
+}
+
+.plant2 {
+  transform: translate(35vw, 15vh);
+}
+
+.plant3 {
+  transform: translate(50vw, 50vh);
+}
+
 footer {
-  margin-bottom: -1.7rem;
+  margin-bottom: -1.5rem;
   margin-left: 0.7rem;
   bottom: 0;
   position: fixed;
@@ -19,20 +36,15 @@ footer {
 body {
   margin: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #262626;
  }
 
  p{
    font-family: Times Now;
-   font-weight: 500;
+   font-weight: ExtraLight;
    font-size: 2.4rem;
-   line-height: 1s;
-   color: white;
- }
-
- .script {
-   font-family: Zapfino;
-   font-size: 1.5rem;
+   line-height: 0.9s;
+   color: #b2b2b2;
  }
 
 .triangle1 {
@@ -44,58 +56,41 @@ body {
 
 
 a:-webkit-any-link {
-    color: white;
+    color: #bbff00;
     cursor: pointer;
     text-decoration: none;
-    font-family: Zapfino;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-family: Monument Grotesk;
+    font-weight: Regular;
+    font-size: 2.2rem;
+    line-height: 1rem;
 }
 
 a:hover{
-
-}
-
-table {
-    width:100%;
-    height: 30px;
-    text-align:left;
-    margin-bottom: 2rem;
-}
-
-th {
-width: 300px;
-height: 35px;
+    color: #b2b2b2;
 }
 
 ::selection{
-  color: black;
-  background-color: white;
+  color: #bbff00;
 }
 
 ::-moz-selection {
   color: black;
-  background-color: white;
-}
-
-@media (max-width:768px) {
-    th {
-        width:100%;
-        display: block;
-    }
 }
 
 @media (max-width: 768px) {
+  header {
+    margin-left: 1rem;
+    margin-top: -.7rem;
+  }
   p {
     font-size: 1.8rem;
-    margin: -2,-2,-2,-2;
-    hyphens: auto;
   }
   a:-webkit-any-link {
-      color: white;
-      font-family: Zapfino;
-      font-size: 1.2rem;
-      line-height: 1.5rem;
+      font-size: 1.5rem;
+      line-height: 1rem;
+  }
+  svg{
+    width:60px;
   }
   }
 
@@ -103,10 +98,12 @@ height: 35px;
     font-family: 'Times Now';
     src: url('fonts/Times Now ExtraLight.otf'),
          url('fonts/times_now_extralight-webfont.woff2'),
-         url('fonts/times_now_extralight-webfont.woff');
+         url('fonts/times_now_extralight-webfont.woff'),
+         url('fonts/MonumentGrotesk-Regular.otf');
     src: url('fonts/Times Now ExtraLight.otf') format('otf'),
          url('fonts/times_now_extralight-webfont.woff2') format('woff2'),
-         url('fonts/times_now_extralight-webfont.woff') format('woff');
+         url('fonts/times_now_extralight-webfont.woff') format('woff'),
+         url('fonts/MonumentGrotesk-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 }
