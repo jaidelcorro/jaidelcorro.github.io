@@ -15,7 +15,7 @@ svg{
 }
 
 .plant1{
-  transform: translate(10vw, 80vh);
+  transform: translate(10vw, 70vh);
 }
 
 .plant2 {
@@ -23,7 +23,7 @@ svg{
 }
 
 .plant3 {
-  transform: translate(50vw, 50vh);
+  transform: translate(45vw, 50vh);
 }
 
 footer {
@@ -89,13 +89,14 @@ a:hover{
   header {
     margin-left: 1rem;
     margin-top: -.7rem;
+    overflow: auto;
   }
   p {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 2rem;
+    line-height: 2.3rem;
   }
   a:-webkit-any-link {
-      font-size: 1rem;
+      font-size: 1.7rem;
       line-height: 0rem;
   }
   svg{
