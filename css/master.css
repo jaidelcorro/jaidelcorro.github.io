@@ -1,7 +1,7 @@
 
 header{
   display: block;
-  margin-top: -1.6rem;
+  margin-top: -1.2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   z-index: 1;
@@ -43,7 +43,7 @@ body {
    font-family: Times Now;
    font-weight: ExtraLight;
    font-size: 2.4rem;
-   line-height: 0.9s;
+   line-height: 2.8rem;
    color: #b2b2b2;
  }
 
@@ -62,11 +62,12 @@ a:-webkit-any-link {
     font-family: Monument Grotesk;
     font-weight: Regular;
     font-size: 2.2rem;
-    line-height: 1rem;
+    line-height: 0;
 }
 
 a:hover{
     color: #b2b2b2;
+    transition: .5s;
 }
 
 ::selection{
@@ -77,17 +78,25 @@ a:hover{
   color: black;
 }
 
+#mydiv{
+  width: 3em;
+  height:3em;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+
 @media (max-width: 768px) {
   header {
     margin-left: 1rem;
     margin-top: -.7rem;
   }
   p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
   }
   a:-webkit-any-link {
-      font-size: 1.5rem;
-      line-height: 1rem;
+      font-size: 1rem;
+      line-height: 0rem;
   }
   svg{
     width:60px;
@@ -99,11 +108,15 @@ a:hover{
     src: url('fonts/Times Now ExtraLight.otf'),
          url('fonts/times_now_extralight-webfont.woff2'),
          url('fonts/times_now_extralight-webfont.woff'),
-         url('fonts/MonumentGrotesk-Regular.otf');
+         url('fonts/MonumentGrotesk-Regular.otf'),
+         url('fonts/MonumentGrotesk-Regular.woff'),
+         url('fonts/MonumentGrotesk-Regular.woff2');
     src: url('fonts/Times Now ExtraLight.otf') format('otf'),
          url('fonts/times_now_extralight-webfont.woff2') format('woff2'),
          url('fonts/times_now_extralight-webfont.woff') format('woff'),
-         url('fonts/MonumentGrotesk-Regular.otf') format('otf');
+         url('fonts/MonumentGrotesk-Regular.otf') format('otf')
+         url('fonts/MonumentGrotesk-Regular.woff'),
+         url('fonts/MonumentGrotesk-Regular.woff2');
     font-weight: normal;
     font-style: normal;
 }
