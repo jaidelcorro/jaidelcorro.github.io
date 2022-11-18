@@ -5,7 +5,7 @@ header{
   margin-left: 1rem;
   margin-right: 1rem;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   max-width: 1400px;
 }
 
@@ -15,15 +15,18 @@ svg{
 }
 
 .plant1{
-  transform: translate(10vw, 70vh);
+  transform: translate(10vw, 40vh);
+  position: fixed;
 }
 
 .plant2 {
   transform: translate(35vw, 15vh);
+  position: fixed;
 }
 
 .plant3 {
   transform: translate(45vw, 50vh);
+  position: fixed;
 }
 
 footer {
@@ -40,7 +43,7 @@ body {
  }
 
  p{
-   font-family: Times Now;
+   font-family: Times Now, serif;
    font-weight: ExtraLight;
    font-size: 2.4rem;
    line-height: 2.8rem;
@@ -59,7 +62,7 @@ a:-webkit-any-link {
     color: #bbff00;
     cursor: pointer;
     text-decoration: none;
-    font-family: Monument Grotesk;
+    font-family: Monument Grotesk, sans-serif;
     font-weight: Regular;
     font-size: 2.2rem;
     line-height: 0;
@@ -86,6 +89,9 @@ a:hover{
 }
 
 @media (max-width: 768px) {
+  body{
+    overflow: auto;
+  }
   header {
     margin-left: 1rem;
     margin-top: -.7rem;
