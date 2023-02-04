@@ -6,7 +6,6 @@ header{
   margin-right: 1rem;
   z-index: 1;
   position: absolute;
-  max-width: 1400px;
 }
 
 svg{
@@ -25,7 +24,7 @@ svg{
 }
 
 .plant3 {
-  transform: translate(45vw, 50vh);
+  transform: translate(75vw, 70vh);
   position: fixed;
 }
 
@@ -59,17 +58,17 @@ body {
 
 
 a:-webkit-any-link {
-    color: #bbff00;
+    color: #b2b2b2;
     cursor: pointer;
     text-decoration: none;
-    font-family: Monument Grotesk, sans-serif;
-    font-weight: Regular;
+    font-family: ABCDiatype, sans-serif;
+    font-weight: Light;
     font-size: 2.2rem;
     line-height: 0;
 }
 
 a:hover{
-    color: #b2b2b2;
+    color: #bbff00;
     transition: .5s;
 }
 
@@ -115,15 +114,27 @@ a:hover{
     src: url('fonts/Times Now ExtraLight.otf'),
          url('fonts/times_now_extralight-webfont.woff2'),
          url('fonts/times_now_extralight-webfont.woff'),
-         url('fonts/MonumentGrotesk-Regular.otf'),
-         url('fonts/MonumentGrotesk-Regular.woff'),
-         url('fonts/MonumentGrotesk-Regular.woff2');
+         url('fonts/ABCDiatype-Light.otf'),
+         url('fonts/ABCDiatype-Light.woff'),
+         url('fonts/ABCDiatype-Light.woff2');
     src: url('fonts/Times Now ExtraLight.otf') format('otf'),
          url('fonts/times_now_extralight-webfont.woff2') format('woff2'),
          url('fonts/times_now_extralight-webfont.woff') format('woff'),
-         url('fonts/MonumentGrotesk-Regular.otf') format('otf')
-         url('fonts/MonumentGrotesk-Regular.woff'),
-         url('fonts/MonumentGrotesk-Regular.woff2');
+         url('fonts/ABCDiatype-Light.otf') format('otf')
+         url('fonts/ABCDiatype-Light.woff') format('woff'),
+         url('fonts/ABCDiatype-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABCDiatype';
+    src: url('fonts/ABCDiatype-Light.otf'),
+         url('fonts/ABCDiatype-Light.woff'),
+         url('fonts/ABCDiatype-Light.woff2');
+    src: url('fonts/ABCDiatype-Light.otf') format('otf')
+         url('fonts/ABCDiatype-Light.woff') format('woff'),
+         url('fonts/ABCDiatype-Light.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
