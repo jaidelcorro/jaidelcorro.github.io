@@ -47,6 +47,7 @@ body {
    font-size: 2.4rem;
    line-height: 2.8rem;
    color: #b2b2b2;
+   font-smooth: auto;
  }
 
 .triangle1 {
